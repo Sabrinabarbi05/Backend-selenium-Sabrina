@@ -1,0 +1,21 @@
+{
+  "id": "6428ad0f-c734-42dd-bbf3-b4206524aae9",
+  "version": "2.0",
+  "name": "alterar",
+  "url": "",
+  "tests": [{
+    "id": "cdbf07f0-d7bc-42f7-9524-7c3ff188989c",
+    "name": "alterar",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "74c4b16c-cea9-49c2-8331-527727c5ab92",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cdbf07f0-d7bc-42f7-9524-7c3ff188989c"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "b9d3ab0b-b0d2-4814-ac46-f1860832b418",
+  "version": "2.0",
+  "name": "Excluitr",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "2941ab07-2f35-415e-80ff-0306c75ade29",
+    "name": "Excluir",
+    "commands": [{
+      "id": "f6f54253-c136-448b-8c2e-44119a726b46",
+      "comment": "",
+      "command": "open",
+      "target": "/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2112cdfa-fe17-4ef8-ac7d-a19b45d386d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17d04169-cee6-473d-a146-c3e765465453",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[5]/button", "xpath:idRelative"],
+        ["xpath=//td[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f2176ec-ab02-40ce-b270-15df2c143211",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2941ab07-2f35-415e-80ff-0306c75ade29"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
